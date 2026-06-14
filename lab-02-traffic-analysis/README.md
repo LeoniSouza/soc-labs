@@ -54,7 +54,9 @@ Foi realizada uma consulta DNS para observar a resolução de nomes de domínio.
 ---
 
 ### HTTPS/TLS
-
+```bash
+https://www.cisco.com
+```
 Foi acessado um site utilizando HTTPS para observar o estabelecimento de uma conexão segura utilizando TLS.
 
 ![HTTPS](images/https.png)
