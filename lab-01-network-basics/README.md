@@ -60,5 +60,5 @@ O laboratório permitiu validar conceitos fundamentais de redes, incluindo ender
 
 ### Tabela de Rotas
 
-![Rotas](images/route.PNG)
+![Rotas](images/ip.PNG)
 
