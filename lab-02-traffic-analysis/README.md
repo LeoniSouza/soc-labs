@@ -59,7 +59,7 @@ A análise de tráfego é uma atividade essencial em um SOC. A identificação d
 
 ### ARP
 
-![ARP](images/arp-capture.png)
+![ARP](images/arp.png)
 
 ### DNS
 
