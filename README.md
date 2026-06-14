@@ -20,10 +20,4 @@ ip route
 
 ## 📸 Evidências
 
-![Configuração de Rede](lab-01-network-basics/capturar.PNG)
-
-![Tabela ARP](lab-01-network-basics/arp%20-a.PNG)
-
-![Ping](lab-01-network-basics/ping%20-c.PNG)
-
-![Rotas](lab-01-network-basics/ip%20route.PNG)
+![ARP](https://raw.githubusercontent.com/LeoniSouza/soc-labs/main/lab-01-network-basics/arp%20-a.PNG)
