@@ -43,7 +43,10 @@ Foram capturadas requisições e respostas ARP utilizadas para resolução de en
 ---
 
 ### DNS
-
+```bash
+nslookup google.com
+host google.com
+```
 Foi realizada uma consulta DNS para observar a resolução de nomes de domínio.
 
 ![DNS](images/dns.png)
