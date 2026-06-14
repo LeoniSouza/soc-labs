@@ -33,7 +33,9 @@ Foram observados pacotes Echo Request e Echo Reply utilizados para validar a con
 ---
 
 ### ARP
-
+```bash
+arp -a
+```
 Foram capturadas requisições e respostas ARP utilizadas para resolução de endereços IP em endereços MAC.
 
 ![ARP](images/arp.png)
