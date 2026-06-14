@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Entender conceitos básicos de rede em Linux e verificar conectividade, rota e comunicação externa.
+Compreender conceitos básicos de rede em Linux e validar a conectividade da máquina.
 
 ## 🛠️ Ferramentas utilizadas
 
@@ -17,37 +17,30 @@ ping -c 4 8.8.8.8
 ip route
 ```
 
-## 🔍 Análise
+## 🔍 Resultados Obtidos
 
-* A máquina possui IP interno 10.0.2.15
-* O gateway da rede é 10.0.2.2
-* A comunicação com a internet foi bem-sucedida
-* Não houve perda de pacotes
-* A rota padrão passa pelo gateway
+### ip a
 
-## 🧠 Interpretação SOC
+Identificação do endereço IP da máquina virtual e da interface de rede ativa.
 
-Os testes confirmam que a máquina possui conectividade local e externa, permitindo comunicação com outros dispositivos e serviços na rede.
+### arp -a
+
+Verificação da tabela ARP para identificar o gateway da rede.
+
+### ping -c 4 8.8.8.8
+
+Teste de conectividade com a internet utilizando o DNS público do Google.
+
+### ip route
+
+Análise da rota padrão utilizada para comunicação externa.
+
+## 🧠 Análise
+
+A máquina recebeu o endereço IP 10.0.2.15 e utiliza o gateway 10.0.2.2 para acessar redes externas. O teste de conectividade foi concluído com sucesso, sem perda de pacotes, demonstrando comunicação funcional com a internet.
 
 ## 📌 Conclusão
 
-A máquina está corretamente configurada na rede e pronta para atividades de monitoramento e análise de tráfego.
+O laboratório permitiu validar conceitos fundamentais de redes, incluindo endereçamento IP, resolução ARP, conectividade ICMP e roteamento básico.
 
-## 📸 Evidências
-
-### Configuração de Rede
-
-![Configuração de Rede](images/captura.png)
-
-### Tabela ARP
-
-![Tabela ARP](images/arp.png)
-
-### Teste de Conectividade
-
-![Ping](images/ping.png)
-
-### Tabela de Rotas
-
-![Rotas](images/route.png)
 
