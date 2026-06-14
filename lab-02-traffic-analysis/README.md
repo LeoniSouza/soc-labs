@@ -63,3 +63,26 @@ Foi acessado um site utilizando HTTPS para observar o estabelecimento de uma con
 ![HTTPS](images/https.png)
 
 A captura mostrou o estabelecimento da conexão segura através do protocolo TLS, incluindo a negociação inicial entre cliente e servidor.
+
+
+🔍 Principais observações
+O protocolo ARP opera na rede local para descoberta de endereços MAC.
+O ICMP é utilizado para testes de conectividade.
+O DNS realiza a tradução de nomes de domínio para endereços IP.
+O HTTPS protege os dados transmitidos utilizando criptografia TLS.
+🧠 Interpretação SOC
+
+A análise de protocolos de rede é uma atividade fundamental em centros de operações de segurança (SOC). A identificação de consultas DNS, testes ICMP, resolução ARP e conexões HTTPS permite compreender o comportamento normal da rede e detectar atividades suspeitas.
+
+📸 Evidências
+ICMP
+
+ARP
+
+DNS
+
+HTTPS
+
+📌 Conclusão
+
+O laboratório permitiu compreender o funcionamento dos principais protocolos observados em redes corporativas e demonstrou como o Wireshark pode ser utilizado para monitoramento e análise de tráfego.
