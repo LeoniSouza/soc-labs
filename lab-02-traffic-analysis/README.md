@@ -55,7 +55,7 @@ A análise de tráfego é uma atividade essencial em um SOC. A identificação d
 
 ### ICMP
 
-![ICMP](images/icmp-capture.png)
+![ICMP](images/icmp.png)
 
 ### ARP
 
@@ -63,11 +63,11 @@ A análise de tráfego é uma atividade essencial em um SOC. A identificação d
 
 ### DNS
 
-![DNS](images/dns-capture.png)
+![DNS](images/dns.png)
 
 ### HTTPS/TLS
 
-![HTTPS](images/https-capture.png)
+![HTTPS](images/https.png)
 
 ## 📌 Conclusão
 
