@@ -48,7 +48,7 @@ O laboratório permitiu validar conceitos fundamentais de redes, incluindo ender
 
 ### Configuração de Rede
 
-![Configuração de Rede](images/captura.png)
+![Configuração de Rede](images/captura.PNG)
 
 ### Tabela ARP
 
@@ -56,9 +56,9 @@ O laboratório permitiu validar conceitos fundamentais de redes, incluindo ender
 
 ### Teste de Conectividade
 
-![Ping](images/ping.png)
+![Ping](images/ping.PNG)
 
 ### Tabela de Rotas
 
-![Rotas](images/route.png)
+![Rotas](images/route.PNG)
 
