@@ -1,23 +1,22 @@
-# 🧪 LAB 01 – Network Basics (SOC Foundation)
+# SOC Labs
 
-## 🎯 Objetivo
-Entender conceitos básicos de rede em Linux e verificar conectividade, rota e comunicação externa.
+Repositório com laboratórios práticos de cibersegurança desenvolvidos durante meus estudos em CyberOps, redes e fundamentos de SOC (Security Operations Center).
 
----
+## Laboratórios
 
-## 🛠️ Ferramentas utilizadas
-- Terminal Linux
+* LAB 01 – Network Basics (em construção)
 
----
+## Competências trabalhadas
 
-## 💻 Comandos executados
+* Linux
+* Redes TCP/IP
+* ARP
+* ICMP
+* Roteamento
+* Análise de conectividade
+* Fundamentos de SOC
 
-```bash
-ip a
-arp -a
-ping -c 4 8.8.8.8
-ip route
+## Objetivo
 
-## 📸 Evidências
+Documentar laboratórios práticos para desenvolvimento de habilidades em cibersegurança e análise de segurança.
 
-![ARP](./lab-01-network-basics/arp%20-a.PNG)
