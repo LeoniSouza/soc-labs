@@ -20,5 +20,5 @@ ip route
 
 ## 📸 Evidências
 
-![ARP](https://raw.githubusercontent.com/LeoniSouza/soc-labs/main/lab-01-network-basics/arp%20-a.PNG)
+![ARP](./lab-01-network-basics/arp%20-a.PNG)
 
