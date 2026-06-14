@@ -20,6 +20,5 @@ ip route
 
 ## 📸 Evidências
 
-![Teste](https://raw.githubusercontent.com/LeoniSouza/soc-labs/main/lab-01-network-basics/capturar.PNG)
-
+![ARP](https://raw.githubusercontent.com/LeoniSouza/soc-labs/main/lab-01-network-basics/arp%20-a.PNG)
 
