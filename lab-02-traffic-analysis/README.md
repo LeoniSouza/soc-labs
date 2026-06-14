@@ -20,7 +20,7 @@ Capturar e analisar tráfego de rede utilizando o Wireshark para identificar pro
 
 ### ICMP
 
-Comando executado:
+Comando executado prompt comando:
 
 ```bash
 ping -c 4 8.8.8.8
