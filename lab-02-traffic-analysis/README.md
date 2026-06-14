@@ -26,8 +26,7 @@ Comando executado prompt comando:
 ping -c 4 8.8.8.8
 ```
 
-Foram observados pacotes Echo Request e Echo Reply utilizados para validar a conectividade.
-
+A captura permitiu observar mensagens Echo Request e Echo Reply, utilizadas para verificar conectividade entre hosts.
 ![ICMP](images/icmp.png)
 
 ---
@@ -36,7 +35,7 @@ Foram observados pacotes Echo Request e Echo Reply utilizados para validar a con
 ```bash
 arp -a
 ```
-Foram capturadas requisições e respostas ARP utilizadas para resolução de endereços IP em endereços MAC.
+Foram analisadas requisições e respostas ARP utilizadas para resolver endereços IP em endereços MAC dentro da rede local.
 
 ![ARP](images/arp.png)
 
@@ -47,7 +46,9 @@ Foram capturadas requisições e respostas ARP utilizadas para resolução de en
 nslookup google.com
 host google.com
 ```
-Foi realizada uma consulta DNS para observar a resolução de nomes de domínio.
+Foi realizada uma consulta DNS para resolução de nomes de domínio.
+
+A captura demonstrou o processo de consulta e resposta entre cliente e servidor DNS.
 
 ![DNS](images/dns.png)
 
@@ -61,4 +62,4 @@ Foi acessado um site utilizando HTTPS para observar o estabelecimento de uma con
 
 ![HTTPS](images/https.png)
 
-O laboratório permitiu compreender o funcionamento dos principais protocolos observados em redes corporativas e demonstrou a utilização do Wireshark para análise de tráfego.
+A captura mostrou o estabelecimento da conexão segura através do protocolo TLS, incluindo a negociação inicial entre cliente e servidor.
