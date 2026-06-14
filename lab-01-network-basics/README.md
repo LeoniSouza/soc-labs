@@ -35,5 +35,19 @@ A máquina está corretamente configurada na rede e pronta para atividades de mo
 
 ## 📸 Evidências
 
-(As imagens serão adicionadas após o upload.)
+### Configuração de Rede
+
+![Configuração de Rede](images/captura.png)
+
+### Tabela ARP
+
+![Tabela ARP](images/arp.png)
+
+### Teste de Conectividade
+
+![Ping](images/ping.png)
+
+### Tabela de Rotas
+
+![Rotas](images/route.png)
 
