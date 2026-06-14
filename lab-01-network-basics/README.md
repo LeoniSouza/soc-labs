@@ -17,20 +17,21 @@ ip a
 arp -a
 ping -c 4 8.8.8.8
 ip route
+
 ## 📸 Evidências
 
-### Configuração de Rede (IP da Máquina)
+### Configuração de Rede
 
-![Configuração de Rede](captura.png)
+![Configuração de Rede](Capturar.PNG)
 
 ### Tabela ARP
 
-![Tabela ARP](arp.png)
+![Tabela ARP](arp%20-a.PNG)
 
 ### Teste de Conectividade
 
-![Ping](ping.png)
+![Ping](ping%20-c.PNG)
 
 ### Tabela de Rotas
 
-![Rotas](route.png)
+![Rotas](ip%20route.PNG)
