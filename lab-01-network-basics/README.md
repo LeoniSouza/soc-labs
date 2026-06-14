@@ -52,7 +52,7 @@ O laboratório permitiu validar conceitos fundamentais de redes, incluindo ender
 
 ### Tabela ARP
 
-![Tabela ARP](images/arp.png)
+![Tabela ARP](images/arp.PNG)
 
 ### Teste de Conectividade
 
