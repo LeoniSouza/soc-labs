@@ -1,23 +1,3 @@
-# 🧪 LAB 02 – Traffic Analysis with Wireshark
-
-## 🎯 Objetivo
-
-Capturar e analisar tráfego de rede utilizando o Wireshark para identificar protocolos essenciais utilizados na comunicação entre dispositivos.
-
-## 🛠️ Ferramentas utilizadas
-
-- Wireshark
-- Linux
-
-## 📡 Protocolos analisados
-
-- ICMP
-- ARP
-- DNS
-- HTTPS/TLS
-
-## 💻 Atividades realizadas
-
 ### ICMP
 
 Comando executado:
@@ -26,49 +6,32 @@ Comando executado:
 ping -c 4 8.8.8.8
 ```
 
-Foram observados pacotes Echo Request e Echo Reply utilizados para validar a conectividade da máquina com a internet.
+Foram observados pacotes Echo Request e Echo Reply utilizados para validar a conectividade.
+
+![ICMP](images/icmp-capture.png)
+
+---
 
 ### ARP
 
-Foram capturadas requisições e respostas ARP utilizadas para resolução de endereços IP em endereços MAC na rede local.
+Foram capturadas requisições e respostas ARP utilizadas para resolução de endereços IP em endereços MAC.
+
+![ARP](images/arp-capture.png)
+
+---
 
 ### DNS
 
-Foi realizada uma consulta DNS para observar o processo de resolução de nomes de domínio para endereços IP.
+Foi realizada uma consulta DNS para observar a resolução de nomes de domínio.
+
+![DNS](images/dns-capture.png)
+
+---
 
 ### HTTPS/TLS
 
 Foi acessado um site utilizando HTTPS para observar o estabelecimento de uma conexão segura utilizando TLS.
 
-## 🔍 Principais observações
-
-- O protocolo ARP permite descobrir o endereço MAC associado a um endereço IP.
-- O ICMP é utilizado para testes de conectividade.
-- O DNS converte nomes de domínio em endereços IP.
-- O HTTPS utiliza TLS para proteger a comunicação entre cliente e servidor.
-
-## 🧠 Interpretação SOC
-
-A análise de tráfego é uma atividade essencial em um SOC. A identificação dos protocolos utilizados permite compreender o comportamento da rede e auxiliar na detecção de atividades suspeitas.
-
-## 📸 Evidências
-
-### ICMP
-
-![ICMP](images/icmp.png)
-
-### ARP
-
-![ARP](images/arp.png)
-
-### DNS
-
-![DNS](images/dns.png)
-
-### HTTPS/TLS
-
-![HTTPS](images/https.png)
-
-## 📌 Conclusão
+![HTTPS](images/https-capture.png)
 
 O laboratório permitiu compreender o funcionamento dos principais protocolos observados em redes corporativas e demonstrou a utilização do Wireshark para análise de tráfego.
