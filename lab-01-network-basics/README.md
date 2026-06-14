@@ -19,7 +19,7 @@ ping -c 4 8.8.8.8
 ip route
 
 ## 📸 Evidências
-![Teste](capturar.PNG)
+![Teste](laboratório-01-noções básicas de rede/capturar.PNG)
 
 
 
