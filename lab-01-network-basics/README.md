@@ -44,3 +44,21 @@ A máquina recebeu o endereço IP 10.0.2.15 e utiliza o gateway 10.0.2.2 para ac
 O laboratório permitiu validar conceitos fundamentais de redes, incluindo endereçamento IP, resolução ARP, conectividade ICMP e roteamento básico.
 
 
+## 📸 Evidências
+
+### Configuração de Rede
+
+![Configuração de Rede](images/captura.png)
+
+### Tabela ARP
+
+![Tabela ARP](images/arp.png)
+
+### Teste de Conectividade
+
+![Ping](images/ping.png)
+
+### Tabela de Rotas
+
+![Rotas](images/route.png)
+
