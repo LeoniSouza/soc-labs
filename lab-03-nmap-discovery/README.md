@@ -23,7 +23,7 @@ Resultado:
 
 Foi identificado um host ativo na rede virtual utilizada para o laboratório.
 
-![Host Discovery](images/host-discovery.png)
+![Host Discovery](images/host-discovery.PNG)
 
 ---
 
@@ -45,7 +45,7 @@ Resultado:
 
 Foram encontradas 3 portas abertas e 997 portas fechadas.
 
-![Basic Scan](images/basic-scan.png)
+![Basic Scan](images/basic-scan.PNG)
 
 ---
 
@@ -67,7 +67,7 @@ Telnet -> Linux telnetd
 
 O Nmap também identificou o sistema operacional Linux.
 
-![Service Scan](images/service-scan.png)
+![Service Scan](images/service-scan.PNG)
 
 ---
 
@@ -91,7 +91,7 @@ Portas abertas:
 
 Portas comuns como HTTP (80), HTTPS (443), MySQL (3306) e RDP (3389) estavam fechadas.
 
-![Top Ports](images/top-ports.png)
+![Top Ports](images/top-ports.PNG)
 
 ---
 
