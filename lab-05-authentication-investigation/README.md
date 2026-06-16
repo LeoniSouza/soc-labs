@@ -23,7 +23,7 @@ w
 
 Foram identificados os usuários atualmente conectados ao sistema e informações sobre suas sessões.
 
-![Who and W](images/who-w.png)
+![Who and W](images/who.PNG)
 
 ---
 
@@ -37,7 +37,7 @@ last
 
 Foi consultado o histórico de acessos registrados no sistema.
 
-![Last](images/last.png)
+![Last](images/last.PNG)
 
 ---
 
@@ -51,7 +51,7 @@ lastlog
 
 Foi verificada a data do último acesso de cada usuário registrado.
 
-![Lastlog](images/lastlog.png)
+![Lastlog](images/lastlog.PNG)
 
 ---
 
@@ -65,7 +65,7 @@ id
 
 Foram obtidas informações sobre o usuário atual, grupos e identificadores.
 
-![ID](images/id.png)
+![ID](images/id.PNG)
 
 ---
 
@@ -81,7 +81,7 @@ A análise retornou eventos relacionados ao ssh-agent (GnuPG cryptographic agent
 
 Não foram identificados eventos explícitos de autenticação SSH durante a consulta realizada com privilégios limitados.
 
-![Login Events](images/login-events.png)
+![Login Events](images/login-events.PNG)
 
 ---
 
