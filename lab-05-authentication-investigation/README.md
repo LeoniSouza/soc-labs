@@ -81,7 +81,7 @@ A análise retornou eventos relacionados ao ssh-agent (GnuPG cryptographic agent
 
 Não foram identificados eventos explícitos de autenticação SSH durante a consulta realizada com privilégios limitados.
 
-![Login Events](images/login-events.PNG)
+![Login Events](images/login-events.png)
 
 ---
 
