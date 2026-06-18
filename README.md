@@ -4,7 +4,7 @@ Repositório com laboratórios práticos de cibersegurança desenvolvidos durant
 
 ## Laboratórios
 
-* LAB 01 – Network Basics (em construção)
+
 
 ## Competências trabalhadas
 
