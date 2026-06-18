@@ -21,7 +21,7 @@ cat /etc/passwd
 
 Foram identificadas as contas existentes no sistema para verificar a presença de usuários não autorizados ou suspeitos.
 
-![Usuários](images/passwd.png)
+![Usuários](images/passwd.PNG)
 
 ---
 
@@ -35,7 +35,7 @@ ps aux
 
 Foram analisados os processos em execução para identificar atividades incomuns ou aplicações desconhecidas.
 
-![Processos](images/processes.png)
+![Processos](images/processes.PNG)
 
 ---
 
@@ -49,7 +49,7 @@ ss -tuln
 
 Foram verificadas as portas abertas e os serviços em estado de escuta na máquina.
 
-![Serviços](images/services.png)
+![Serviços](images/services.PNG)
 
 ---
 
@@ -63,7 +63,7 @@ find /home -type f -mtime -7
 
 Foram identificados arquivos modificados nos últimos sete dias para auxiliar na busca por alterações suspeitas.
 
-![Arquivos Recentes](images/recent-files.png)
+![Arquivos Recentes](images/recent-files.PNG)
 
 ---
 
