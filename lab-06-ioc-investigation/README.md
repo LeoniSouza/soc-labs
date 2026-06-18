@@ -6,8 +6,8 @@ Identificar possíveis Indicadores de Comprometimento (IOCs) em um sistema Linux
 
 ## 🛠️ Ferramentas utilizadas
 
-* Linux
-* Terminal Bash
+- Linux
+- Terminal Bash
 
 ## 📋 Atividades realizadas
 
@@ -19,7 +19,7 @@ Comando executado:
 cat /etc/passwd
 ```
 
-Foram identificadas as contas existentes no sistema para verificar a presença de usuários não autorizados ou suspeitos.
+Foram identificadas as contas existentes no sistema.
 
 ![Usuários](images/passwd.PNG)
 
@@ -33,7 +33,7 @@ Comando executado:
 ps aux
 ```
 
-Foram analisados os processos em execução para identificar atividades incomuns ou aplicações desconhecidas.
+Foram verificados os processos em execução para identificar possíveis atividades incomuns.
 
 ![Processos](images/processes.PNG)
 
@@ -47,7 +47,7 @@ Comando executado:
 ss -tuln
 ```
 
-Foram verificadas as portas abertas e os serviços em estado de escuta na máquina.
+Foram analisadas as portas abertas e os serviços em escuta.
 
 ![Serviços](images/services.PNG)
 
@@ -61,7 +61,7 @@ Comando executado:
 find /home -type f -mtime -7
 ```
 
-Foram identificados arquivos modificados nos últimos sete dias para auxiliar na busca por alterações suspeitas.
+Foram identificados arquivos modificados nos últimos sete dias.
 
 ![Arquivos Recentes](images/recent-files.PNG)
 
@@ -75,7 +75,7 @@ Comando executado:
 df -h
 ```
 
-Foi analisada a utilização do armazenamento do sistema para identificar possíveis consumos anormais de espaço.
+Foi analisada a utilização de armazenamento do sistema.
 
 ![Uso de Disco](images/disk-usage.png)
 
@@ -83,19 +83,10 @@ Foi analisada a utilização do armazenamento do sistema para identificar possí
 
 ## 🧠 Análise SOC
 
-Indicadores de Comprometimento (IOCs) são evidências que podem sugerir a presença de atividades maliciosas em um sistema.
+Durante a investigação foram analisados possíveis Indicadores de Comprometimento (IOCs), incluindo usuários existentes, processos ativos, serviços em execução, alterações recentes em arquivos e utilização de armazenamento.
 
-Durante este laboratório foram analisados:
-
-* Usuários existentes no sistema.
-* Processos em execução.
-* Serviços ativos e portas abertas.
-* Arquivos alterados recentemente.
-* Utilização de armazenamento.
-
-Essas verificações ajudam analistas de segurança a identificar comportamentos anormais e possíveis sinais de comprometimento.
+A identificação desses elementos auxilia na detecção de atividades suspeitas e na investigação de incidentes de segurança.
 
 ## 📌 Conclusão
 
-O laboratório demonstrou técnicas básicas de IOC Investigation em sistemas Linux. A análise de usuários, processos, serviços e arquivos fornece informações importantes para atividades de monitoramento, investigação e resposta a incidentes de segurança.
-
+O laboratório demonstrou técnicas básicas de Threat Hunting e IOC Investigation em sistemas Linux, permitindo a identificação de evidências que podem indicar comprometimento ou comportamento anômalo.
